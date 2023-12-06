@@ -3,8 +3,8 @@
 namespace Khurram554\MediaLibrary\SpatieMediaManager\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Khurram554\MediaLibrary\SpatieMediaManager\SpatieMediaManagerServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

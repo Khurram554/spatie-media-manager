@@ -2,9 +2,9 @@
 
 namespace Khurram554\MediaLibrary\SpatieMediaManager;
 
+use Khurram554\MediaLibrary\SpatieMediaManager\Commands\SpatieMediaManagerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Khurram554\MediaLibrary\SpatieMediaManager\Commands\SpatieMediaManagerCommand;
 
 class SpatieMediaManagerServiceProvider extends PackageServiceProvider
 {
