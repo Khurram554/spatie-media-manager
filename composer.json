@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "khurram554/spatie-media-manager",
+    "description": "This is my package spatie-media-manager",
     "keywords": [
-        ":vendor_name",
+        "Khurram Malik",
         "laravel",
-        ":package_slug"
+        "spatie-media-manager"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/khurram554/spatie-media-manager",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Khurram Malik",
+            "email": "kmalik554@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Khurram554\\MediaLibrary\\SpatieMediaManager\\": "src/",
+            "Khurram554\\MediaLibrary\\SpatieMediaManager\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Khurram554\\MediaLibrary\\SpatieMediaManager\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-spatie-media-manager --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Khurram554\\MediaLibrary\\SpatieMediaManager\\SpatieMediaManagerServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "SpatieMediaManager": "Khurram554\\MediaLibrary\\SpatieMediaManager\\Facades\\SpatieMediaManager"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace Khurram554\MediaLibrary\SpatieMediaManager\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

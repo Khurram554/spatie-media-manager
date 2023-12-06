@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Khurram554\MediaLibrary\SpatieMediaManager;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Khurram554\MediaLibrary\SpatieMediaManager\Commands\SpatieMediaManagerCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SpatieMediaManagerServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('spatie-media-manager')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_spatie-media-manager_table')
+            ->hasCommand(SpatieMediaManagerCommand::class);
     }
 }

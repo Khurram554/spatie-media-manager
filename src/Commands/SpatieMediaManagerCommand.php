@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Khurram554\MediaLibrary\SpatieMediaManager\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SpatieMediaManagerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'spatie-media-manager';
 
     public $description = 'My command';
 
